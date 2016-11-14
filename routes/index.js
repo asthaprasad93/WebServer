@@ -1,9 +1,5 @@
 var express = require('express');
 var router = express.Router();
-// const addon = require('./build/Release/addon');
-// console.log(addon.hello());
-// console.log("in route.js");
-
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
